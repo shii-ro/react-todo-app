@@ -1,0 +1,9 @@
+.todo-list__list{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: var(--primary-color-200);
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}

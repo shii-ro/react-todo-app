@@ -1,0 +1,35 @@
+.todo-list{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: var(--primary-color-100);
+}
+
+.todo-list__title{
+    color: white;
+    background-color: var(--primary-color-300);
+    padding: 1rem;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.todo-list__delete{
+    display: flex;
+    width: 70%;
+}
+
+.todo-list__delete button{
+    width: 50%;
+    padding: 0.5rem;
+    color: white;
+    background-color: var(--complementary-color-400);
+    border: 2px solid var(--complementary-color-500);
+    margin: 0.3rem;
+}

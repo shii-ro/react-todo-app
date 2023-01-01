@@ -1,0 +1,38 @@
+.list__item{
+    list-style: none;
+    display: flex;
+    background-color: white;
+    margin: 0.5rem;
+    padding: 0.3rem;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.list__content--done{
+    font-style: oblique;
+    text-decoration: line-through;
+    color: red;
+}
+.list__content--notdone{
+    font-weight: 600;
+}
+.list__buttons{
+    display: inline;
+}
+.list__button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.list__button i{
+    font-size: 1.5rem;
+    color: var(--complementary-color-500);
+}
+
+.list__item-input{
+    padding: 1rem 0;
+    font-size: 0.90rem;
+    font-weight: 700;
+}
